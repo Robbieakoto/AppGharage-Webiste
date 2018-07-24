@@ -872,7 +872,7 @@ a.hover-reverse:active {
 
 .probootstrap-half .image-wrap,
 .probootstrap-half .text {
-    width: 50%;
+    width: 100%;
 }
 
 @media screen and (max-width: 1000px) {

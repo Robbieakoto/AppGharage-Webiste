@@ -37,12 +37,12 @@ body {
     color: #7e8890
 }
 
-::selection {
+ ::selection {
     background: #000;
     color: #fff
 }
 
-::-moz-selection {
+ ::-moz-selection {
     background: #000;
     color: #fff
 }

@@ -4,9 +4,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AppGharage &mdash; A team of developers and designers</title>
-    <meta name="description" content="Free Bootstrap Theme by uicookies.com">
-    <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+    <title>AppGharage &mdash; A team of world class developers and designers</title>
+    <meta name="description" content="Design by apgharage.com">
+    <meta name="keywords" content="World class designers,World class developers">
 
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
     <link rel="stylesheet" href="css/styles-merged.css">
@@ -27,7 +27,7 @@
 
     <header role="banner" class="probootstrap-header">
         <div class="container">
-            <a href="index.html" class="probootstrap-logo">AppGharage</a>
+            <a href="index.html" class="probootstrap-logo"><img src="img/AppGharageLogo4 copy.png" alt="" width="200px"></a>
 
             <a href="#" class="probootstrap-burger-menu visible-xs"><i>Menu</i></a>
             <div class="mobile-menu-overlay"></div>
@@ -160,12 +160,12 @@
 
         <section class="probootstrap-half reverse" id="aboutUs">
             <div class="image-wrap">
-                <div class="image" style="background-image: url(img/download.jpg); width:100%"></div>
+                <div class="image" style="background-image: url(img/img2.jpg); "></div>
             </div>
             <div class="text ">
                 <p class="mb10 subtitle ">About Us</p>
                 <h3 class="mt0 mb40 ">Meet The Team</h3>
-                <p>We are a team of highly creative developers and designers who employ prgamatic functional, engineering-based principles.</p>
+                <p>We are a team of highly creative developers and designers who employ pragamatic functional, engineering-based principles.</p>
                 <p class="mb50 "></p>
 
                 <div class="row ">
@@ -188,7 +188,7 @@
                 <div class="row ">
                     <div class="col-md-6 ">
                         <div class="probootstrap-block-image text-center ">
-                            <figure><img src="img/Robbie.jpg " alt="Free Template by uicookies.com "></figure>
+                            <figure><img src="img/me.jpg " alt="Free Template by uicookies.com "></figure>
                             <h4>Roberta Akoto</h4>
                             <p>Technical Success and Talent Development</p>
                         </div>
@@ -330,7 +330,17 @@
     <script src="js/scripts.min.js "></script>
     <script src="js/main.min.js "></script>
     <script src="js/custom.js "></script>
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
 
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
