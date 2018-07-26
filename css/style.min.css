@@ -821,7 +821,7 @@ a.hover-reverse:hover {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
 
 .probootstrap-half .image-wrap,
@@ -846,13 +846,13 @@ a.hover-reverse:hover {
 
 .probootstrap-half .image {
     width: 100%;
-    height: 100%;
+    height: 60%;
+    margin-top: 100px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     -webkit-transition: .8s all ease-in-out;
     transition: .8s all ease-in-out;
-    background-color: #f4bd00
 }
 
 .probootstrap-half .text {
@@ -900,8 +900,8 @@ a.hover-reverse:hover {
 .probootstrap-half.reverse .image-wrap {
     position: absolute;
     right: 0;
-    top: 0;
-    height: 80%
+    top: 30%;
+    height: 50%
 }
 
 @media screen and (max-width:1000px) {
@@ -1237,7 +1237,7 @@ a.hover-reverse:hover {
 }
 
 .probootstrap-block-image figure img {
-    max-width: 60%;
+    max-width: 50%;
     border-radius: 50%;
 }
 
